@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CancelarConsultas">
+
+
+    <CheckBox
+        android:id="@+id/cancelConsulta1"
+        android:layout_width="332dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Consulta 1" />
+
+    <CheckBox
+        android:id="@+id/cancelConsulta2"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="Consulta 2" />
+
+    <CheckBox
+        android:id="@+id/cancelConsulta3"
+        android:layout_width="338dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:text="Consulta 3" />
+
+    <CheckBox
+        android:id="@+id/cancelConsulta4"
+        android:layout_width="334dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:text="Consulta 4" />
+
+    <Button
+        android:id="@+id/bntCancelarConsulta"
+        android:layout_width="318dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Cancelar Consulta" />
+</RelativeLayout>

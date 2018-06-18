@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AtualizarHospitais">
+
+    <EditText
+        android:id="@+id/txtRazao"
+        android:layout_width="358dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="UNIMED" />
+
+    <EditText
+        android:id="@+id/txtCnpj"
+        android:layout_width="356dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="12.145.789/0002-01" />
+
+    <EditText
+        android:id="@+id/txtEndHosp"
+        android:layout_width="352dp"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rua J, 15, Alvorada 1" />
+
+    <EditText
+        android:id="@+id/txtTel"
+        android:layout_width="355dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="(92)3012-4561" />
+
+    <Button
+        android:id="@+id/bntAtualizarHosp"
+        android:layout_width="353dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="Atualizar Dados" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Títulos das Telas-->
+    <string name="app_main">Gerenciamento Hospitalar</string>
+    <string name="app_cadclientes">Cadastrar Cliente</string>
+    <string name="app_cadhospitais">Cadastrar Hospital</string>
+    <string name="app_atualhospitais">Atualizar Hospital</string>
+    <string name="app_marcarexame">Marcar Exame</string>
+    <string name="app_marcarconsulta">Marcar Consulta</string>
+    <string name="app_listconsultas">Listar Consultas</string>
+    <string name="app_cancelconsultas">Cancelar Consultas</string>
+
+    <!-- Textos das Spinners de Marcar Consulta-->
+    <string-array name="app_hospital">
+        <item>UNIMED</item>
+        <item>HAPVIDA</item>
+        <item>SANTA JULIA</item>
+        <item>ADVENTISTA</item>
+    </string-array>
+
+    <string-array name="app_cliente">
+        <item>Maria Valente</item>
+        <item>Joao Silva</item>
+        <item>Jéssica Leonel</item>
+        <item>Yago Ferreira</item>
+        <item>Dennis Menandes</item>
+    </string-array>
+
+    <string-array name="app_medico">
+        <item>Josefina</item>
+        <item>Rulio</item>
+        <item>Kefera</item>
+        <item>Jesus</item>
+    </string-array>
+
+
+    <!-- Títulos das Telas-->
+
+
+</resources>

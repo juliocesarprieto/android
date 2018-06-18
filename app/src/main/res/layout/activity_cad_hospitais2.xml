@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadHospitais2">
+
+    <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="147dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/home" />
+
+    <Button
+        android:id="@+id/bntHome"
+        android:layout_width="148dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:onClick="home"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/bntAtualHosp"
+        android:layout_width="312dp"
+        android:layout_height="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp"
+        android:onClick="atualhospital"
+        android:text="Atulizar Hospital" />
+
+    <Button
+        android:id="@+id/bntCadastrarHosp"
+        android:layout_width="311dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="103dp"
+        android:onClick="cadhospital"
+        android:text="Cadastrar Hospitais" />
+
+
+</RelativeLayout>

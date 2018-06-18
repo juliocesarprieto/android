@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jl.geren_hospitalar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_main"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CadClientes"
+            android:label="@string/app_cadclientes" />
+        <activity
+            android:name=".CadHospitais"
+            android:label="@string/app_cadhospitais" />
+        <activity
+            android:name=".AtualizarHospitais"
+            android:label="@string/app_atualhospitais" />
+        <activity
+            android:name=".CancelarConsultas"
+            android:label="@string/app_cancelconsultas" />
+        <activity
+            android:name=".ListarConsultas"
+            android:label="@string/app_listconsultas" />
+        <activity
+            android:name=".MarcarConsulta"
+            android:label="@string/app_marcarconsulta" />
+        <activity
+            android:name=".MarcarExame"
+            android:label="@string/app_marcarexame" />
+        <activity android:name=".CadHospitais2" />
+        <activity android:name=".MarcarConsulta2"></activity>
+    </application>
+
+</manifest>

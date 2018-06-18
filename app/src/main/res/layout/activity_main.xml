@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/clientes"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/cad_cliente" />
+
+    <ImageView
+        android:id="@+id/hospitais"
+        android:layout_width="90dp"
+        android:layout_height="79dp"
+        android:layout_alignEnd="@+id/clientes"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="164dp"
+        app:srcCompat="@drawable/hospitais" />
+
+    <ImageView
+        android:id="@+id/exames"
+        android:layout_width="96dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/clientes"
+        android:layout_marginBottom="21dp"
+        app:srcCompat="@drawable/marcar_exame" />
+
+    <ImageView
+        android:id="@+id/consultas"
+        android:layout_width="93dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/clientes"
+        android:layout_marginBottom="142dp"
+        app:srcCompat="@drawable/marcar_consulta" />
+
+    <Button
+        android:id="@+id/bntClientes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/bntHospitais"
+        android:layout_marginTop="63dp"
+        android:onClick="clientes"
+        android:text="Cadastar Clientes" />
+
+    <Button
+        android:id="@+id/bntHospitais"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/bntConsultas"
+        android:layout_marginTop="182dp"
+        android:onClick="hospitais2"
+        android:text="Hospitais" />
+
+    <Button
+        android:id="@+id/bntExames"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/bntClientes"
+        android:layout_marginBottom="163dp"
+        android:onClick="exame"
+        android:text="Marcar Exame" />
+
+    <Button
+        android:id="@+id/bntConsultas"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/exames"
+        android:layout_marginEnd="20dp"
+        android:onClick="consultas2"
+        android:text="Consultas" />
+
+</RelativeLayout>
