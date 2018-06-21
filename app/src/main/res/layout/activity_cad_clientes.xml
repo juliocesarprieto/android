@@ -8,7 +8,7 @@
 
 
     <EditText
-        android:id="@+id/txtNome"
+        android:id="@+id/txtNomeCliente"
         android:layout_width="353dp"
         android:layout_height="57dp"
         android:layout_alignParentTop="true"
@@ -19,7 +19,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/txtCpf"
+        android:id="@+id/txtCpfCliente"
         android:layout_width="356dp"
         android:layout_height="62dp"
         android:layout_alignParentTop="true"
@@ -30,7 +30,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/txtEnd"
+        android:id="@+id/txtEndCliente"
         android:layout_width="352dp"
         android:layout_height="63dp"
         android:layout_alignParentTop="true"
@@ -41,35 +41,35 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/txtTel"
+        android:id="@+id/txtTelCliente"
         android:layout_width="355dp"
         android:layout_height="62dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="176dp"
+        android:layout_marginBottom="174dp"
         android:ems="10"
         android:hint="(92)3000-0000"
         android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/txtDtNacimento"
-        android:layout_width="355dp"
-        android:layout_height="61dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
-        android:ems="10"
-        android:hint="Data de Nascimento"
-        android:inputType="textPersonName" />
-
     <Button
-        android:id="@+id/bntCadastrarHosp"
+        android:id="@+id/btnCadCliente"
         android:layout_width="353dp"
-        android:layout_height="61dp"
+        android:layout_height="62dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="19dp"
         android:text="Cadastrar Cliente" />
+
+    <EditText
+        android:id="@+id/txtDtNascCliente"
+        android:layout_width="355dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:ems="10"
+        android:hint="Data Nascimento"
+        android:inputType="date" />
 
 
 </RelativeLayout>
